@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(255, 167, 167); /*backgouncd jadi lightgray*/
+}
+
+p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+h1 {
+  color: rgb(0, 0, 0); /*warna tulisan jadi biru*/
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.grid-item {
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.flex-item {
+  background: rgb(0, 144, 206);
+  padding: 20px;
+  text-align: center;
+}
+
